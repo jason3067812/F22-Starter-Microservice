@@ -19,9 +19,13 @@ class ColumbiaStudentResource:
         # pw = "12234"
         # h = "localhost"
 
+        # usr = "admin"
+        # pw = "eric30678"
+        # h = "test.cvwwgxdyhdlt.us-east-2.rds.amazonaws.com"
+
         usr = "admin"
-        pw = "eric30678"
-        h = "test.cvwwgxdyhdlt.us-east-2.rds.amazonaws.com"
+        pw = "dbuserdbuser"
+        h = "demo2.clwnvr5bmx9q.us-east-1.rds.amazonaws.com"
 
         conn = pymysql.connect(
             user=usr,
